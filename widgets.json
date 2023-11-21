@@ -1557,6 +1557,7 @@
     "description": "View RSS feeds",
     "category": "utilities",
     "widgetId": "rss_viewer",
+    "disabled": true,
     "schema": {
       "properties": {
         "url": {
@@ -1575,6 +1576,7 @@
     "description": "Show a clock",
     "category": "utilities",
     "widgetId": "clock",
+    "disabled": true,
     "gridData": {
       "w": 7,
       "h": 1
@@ -1630,6 +1632,7 @@
     "description": "Show a table loaded from external source",
     "category": "utilities",
     "widgetId": "external_table",
+    "disabled": true,
     "external": true
   },
   "pyscript": {
