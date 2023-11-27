@@ -5,11 +5,12 @@
     "description": "Create inner tabs inside a tab",
     "category": "ui",
     "widgetId": "navigation_bar",
+    "category_1": "Utils",
     "gridData": {
       "w": 40,
-      "h": 1,
+      "h": 2,
       "minW": 40,
-      "maxH": 1
+      "maxH": 2
     }
   },
   "market_overview": {
@@ -19,9 +20,10 @@
     "category": "equity",
     "widgetType": "individual",
     "widgetId": "market_overview",
+    "category_1": "Index",
     "gridData": {
       "w": 40,
-      "h": 2,
+      "h": 4,
       "minW": 20
     },
     "source": [
@@ -35,9 +37,10 @@
     "category": "equity",
     "widgetType": "individual",
     "widgetId": "equity_select",
+    "category_1": "Equity",
     "gridData": {
       "w": 20,
-      "h": 2
+      "h": 4
     },
     "source": [
       "fmp"
@@ -51,9 +54,10 @@
     "widgetType": "individual",
     "endpoint": "globalNews",
     "widgetId": "global_news",
+    "category_1": "News",
     "gridData": {
       "w": 20,
-      "h": 9
+      "h": 18
     },
     "source": [
       "benzinga"
@@ -66,9 +70,10 @@
     "category": "equity",
     "widgetType": "individual",
     "widgetId": "charting",
+    "category_1": "Technical Analysis",
     "gridData": {
       "w": 40,
-      "h": 8
+      "h": 16
     },
     "source": [
       "fmp",
@@ -81,6 +86,7 @@
     "name": "Watchlist",
     "description": "Show watchlist for one or more tickers",
     "category": "equity",
+    "category_1": "Utils",
     "widgetType": "individual",
     "widgetId": "watchlist",
     "source": [
@@ -96,9 +102,10 @@
     "widgetType": "individual",
     "endpoint": "companyNews",
     "widgetId": "company_news",
+    "category_1": "News",
     "gridData": {
       "w": 20,
-      "h": 9
+      "h": 18
     },
     "source": [
       "benzinga"
@@ -112,9 +119,10 @@
     "widgetType": "individual",
     "endpoint": "companyProfile",
     "widgetId": "company_profile",
+    "category_1": "Equity",
     "gridData": {
       "w": 20,
-      "h": 8
+      "h": 16
     },
     "source": [
       "fmp"
@@ -128,9 +136,11 @@
     "widgetType": "individual",
     "endpoint": "pricePerformance",
     "widgetId": "price_performance",
+    "category_1": "Equity",
+    "category_2": "Price",
     "gridData": {
       "w": 20,
-      "h": 8
+      "h": 16
     },
     "source": [
       "intrinio"
@@ -144,9 +154,11 @@
     "widgetType": "individual",
     "endpoint": "shareStatistics",
     "widgetId": "share_statistics",
+    "category_1": "Equity",
+    "category_2": "Ownership",
     "gridData": {
       "w": 10,
-      "h": 3
+      "h": 6
     },
     "source": [
       "fmp"
@@ -160,6 +172,8 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalMetrics",
     "widgetId": "financial_ratios",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "params": {
       "with_ttm": true
     },
@@ -177,7 +191,7 @@
     },
     "gridData": {
       "w": 40,
-      "h": 8
+      "h": 16
     },
     "source": [
       "fmp"
@@ -191,9 +205,11 @@
     "widgetType": "individual",
     "endpoint": "peers",
     "widgetId": "peers_list",
+    "category_1": "Equity",
+    "category_2": "Comparison Analysis",
     "gridData": {
       "w": 20,
-      "h": 5
+      "h": 10
     },
     "disabled": true
   },
@@ -205,9 +221,11 @@
     "widgetType": "individual",
     "endpoint": "companyOutlook",
     "widgetId": "key_metrics",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "gridData": {
       "w": 20,
-      "h": 4
+      "h": 8
     },
     "source": [
       "fmp"
@@ -246,9 +264,10 @@
       }
     },
     "widgetId": "management_team",
+    "category_1": "Equity",
     "gridData": {
       "w": 20,
-      "h": 7
+      "h": 14
     },
     "source": [
       "fmp"
@@ -263,9 +282,11 @@
     "defaultViz": "chart",
     "sdkFunc": "revenuePerGeog",
     "widgetId": "revenue_per_geography",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "gridData": {
       "w": 20,
-      "h": 7
+      "h": 14
     },
     "source": [
       "fmp"
@@ -280,9 +301,11 @@
     "defaultViz": "chart",
     "sdkFunc": "revenuePerBusLine",
     "widgetId": "revenue_per_bus_line",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "gridData": {
       "w": 20,
-      "h": 7
+      "h": 14
     },
     "source": [
       "fmp"
@@ -291,7 +314,7 @@
   "valuation_multiples": {
     "searchCategory": "financials",
     "name": "Valuation Multiples",
-    "description": "Vaulation Multiples Annually and Quarterly",
+    "description": "Valuation Multiples Annually and Quarterly",
     "category": "equity",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalMetrics",
@@ -350,9 +373,11 @@
       }
     },
     "widgetId": "valuation_multiples",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "gridData": {
       "w": 40,
-      "h": 6
+      "h": 12
     },
     "source": [
       "fmp"
@@ -365,6 +390,7 @@
     "category": "equity",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalBalance",
+    "disabled": true,
     "data": {
       "table": {
         "enableCharts": true,
@@ -573,9 +599,11 @@
       }
     },
     "widgetId": "balance_sheet",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "gridData": {
       "w": 40,
-      "h": 8
+      "h": 16
     },
     "source": [
       "intrinio"
@@ -588,6 +616,7 @@
     "category": "equity",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalIncome",
+    "disabled": true,
     "data": {
       "table": {
         "enableCharts": true,
@@ -732,9 +761,11 @@
       }
     },
     "widgetId": "income_statement",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "gridData": {
       "w": 40,
-      "h": 8
+      "h": 16
     },
     "source": [
       "intrinio"
@@ -747,6 +778,7 @@
     "category": "equity",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalCash",
+    "disabled": true,
     "data": {
       "table": {
         "enableCharts": true,
@@ -898,9 +930,11 @@
       }
     },
     "widgetId": "cash_flow_statement",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "gridData": {
       "w": 40,
-      "h": 8
+      "h": 16
     },
     "source": [
       "intrinio"
@@ -908,8 +942,8 @@
   },
   "sec_filings": {
     "searchCategory": "financials",
-    "name": "SEC Filings",
-    "description": "Recent SEC Filings for a certain ticker",
+    "name": "Company Filings",
+    "description": "Recent Company Filings for a certain ticker",
     "category": "equity",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalFilings",
@@ -942,9 +976,11 @@
       }
     },
     "widgetId": "sec_filings",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "gridData": {
       "w": 12,
-      "h": 7
+      "h": 14
     },
     "source": [
       "fmp"
@@ -964,9 +1000,11 @@
       }
     },
     "widgetId": "price_target",
+    "category_1": "Equity",
+    "category_2": "Analyst Estimates",
     "gridData": {
       "w": 20,
-      "h": 4
+      "h": 8
     },
     "source": [
       "fmp"
@@ -980,6 +1018,8 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityEstimatesPriceTarget",
     "widgetId": "analyst_price_target",
+    "category_1": "Equity",
+    "category_2": "Analyst Estimates",
     "data": {
       "table": {
         "columnsDefs": [
@@ -1022,7 +1062,7 @@
     },
     "gridData": {
       "w": 40,
-      "h": 8
+      "h": 16
     },
     "source": [
       "fmp"
@@ -1124,9 +1164,11 @@
       }
     },
     "widgetId": "analyst_estimates",
+    "category_1": "Equity",
+    "category_2": "Analyst Estimates",
     "gridData": {
       "w": 20,
-      "h": 4
+      "h": 8
     },
     "source": [
       "fmp"
@@ -1134,12 +1176,14 @@
   },
   "analyst_upgrades_downgrades": {
     "searchCategory": "analyst-estimates",
-    "name": "Analyst Upgrades and Downgrades",
-    "description": "Analyst Upgrades and Downgrades for a certain ticker",
+    "name": "Analyst Consensus",
+    "description": "Analyst Consensus for a certain ticker",
     "category": "equity",
     "widgetType": "individual",
     "sdkFunc": "useEquityEstimatesPriceTarget",
     "widgetId": "analyst_upgrades_downgrades",
+    "category_1": "Equity",
+    "category_2": "Analyst Estimates",
     "params": {
       "with_grade": true
     },
@@ -1179,7 +1223,7 @@
     },
     "gridData": {
       "w": 40,
-      "h": 6
+      "h": 12
     },
     "source": [
       "fmp"
@@ -1193,9 +1237,11 @@
     "widgetType": "individual",
     "endpoint": "companyEarningsHistorical",
     "widgetId": "company_events",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "gridData": {
       "w": 19,
-      "h": 6
+      "h": 12
     },
     "source": [
       "fmp"
@@ -1209,9 +1255,11 @@
     "widgetType": "individual",
     "endpoint": "earningsTranscript",
     "widgetId": "earnings_transcripts",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "gridData": {
       "w": 40,
-      "h": 8
+      "h": 16
     },
     "source": [
       "fmp"
@@ -1225,10 +1273,12 @@
     "widgetType": "individual",
     "endpoint": "splits",
     "widgetId": "stock_splits",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "defaultViz": "chart",
     "gridData": {
       "w": 40,
-      "h": 7
+      "h": 14
     },
     "source": [
       "fmp"
@@ -1242,10 +1292,11 @@
     "widgetType": "none",
     "endpoint": "mock",
     "widgetId": "economic_calendar",
+    "category_1": "Economy",
     "defaultViz": "table",
     "gridData": {
       "w": 20,
-      "h": 4
+      "h": 8
     },
     "source": [
       "tradingeconomics"
@@ -1259,6 +1310,8 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalDividends",
     "widgetId": "stock_dividends",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "data": {
       "table": {
         "enableCharts": true,
@@ -1303,7 +1356,7 @@
     },
     "gridData": {
       "w": 40,
-      "h": 6
+      "h": 12
     },
     "source": [
       "fmp"
@@ -1317,6 +1370,8 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityOwnershipInsiderTrading",
     "widgetId": "insider_trading",
+    "category_1": "Equity",
+    "category_2": "Ownership",
     "data": {
       "table": {
         "enableCharts": true,
@@ -1356,7 +1411,7 @@
           {
             "headerName": "Acquistion or Disposition",
             "field": "acquisition_or_disposition",
-            "chartDataType":"excluded"
+            "chartDataType": "excluded"
           },
           {
             "headerName": "Form Type",
@@ -1381,7 +1436,7 @@
     },
     "gridData": {
       "w": 40,
-      "h": 6
+      "h": 12
     },
     "source": [
       "fmp"
@@ -1395,6 +1450,8 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityOwnershipMajorHolders",
     "widgetId": "stock_ownership",
+    "category_1": "Equity",
+    "category_2": "Ownership",
     "params": {
       "date": "string",
       "include_current_quarter": true
@@ -1450,7 +1507,7 @@
     },
     "gridData": {
       "w": 40,
-      "h": 6
+      "h": 12
     },
     "source": [
       "fmp"
@@ -1464,6 +1521,8 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityOwnershipInstitutional",
     "widgetId": "institutional_ownership",
+    "category_1": "Equity",
+    "category_2": "Ownership",
     "params": {
       "include_current_quarter": true
     },
@@ -1517,12 +1576,11 @@
             "field": "put_call_ratio"
           }
         ]
-
       }
     },
     "gridData": {
       "w": 40,
-      "h": 6
+      "h": 12
     },
     "source": [
       "fmp"
@@ -1533,6 +1591,7 @@
     "name": "Text Widget",
     "description": "Create a text widget",
     "category": "utilities",
+    "category_1": "Utils",
     "widgetId": "rich_note"
   },
   "iframe": {
@@ -1540,6 +1599,7 @@
     "name": "Iframe",
     "description": "Embed an iframe",
     "category": "utilities",
+    "category_1": "Utils",
     "widgetId": "iframe",
     "disabled": true
   },
@@ -1548,38 +1608,29 @@
     "name": "XML Viewer",
     "description": "View XML (e.g., to view rss feeds or sec filings)",
     "category": "utilities",
+    "category_1": "Utils",
     "widgetId": "xml_viewer",
     "disabled": true
   },
   "rss_viewer": {
     "searchCategory": "miscellaneous",
-    "name": "RSS Viewer",
-    "description": "View RSS feeds",
+    "name": "RSS Feed",
+    "description": "View and manage RSS feeds",
     "category": "utilities",
+    "category_1": "Utils",
     "widgetId": "rss_viewer",
-    "disabled": true,
-    "schema": {
-      "properties": {
-        "url": {
-          "type": "string",
-          "title": "RSS Feed URL",
-          "description": "Enter the URL of the RSS feed you want to display",
-          "format": "url",
-          "mandatory": true
-        }
-      }
-    }
+    "disabled": false
   },
   "clock": {
     "searchCategory": "miscellaneous",
     "name": "Clock",
     "description": "Show a clock",
     "category": "utilities",
+    "category_1": "Utils",
     "widgetId": "clock",
-    "disabled": true,
     "gridData": {
-      "w": 7,
-      "h": 1
+      "w": 20,
+      "h": 4
     },
     "schema": {
       "properties": {
@@ -1632,8 +1683,8 @@
     "description": "Show a table loaded from external source",
     "category": "utilities",
     "widgetId": "external_table",
-    "disabled": true,
-    "external": true
+    "external": true,
+    "disabled": true
   },
   "pyscript": {
     "searchCategory": "miscellaneous",
@@ -1651,7 +1702,7 @@
     "widgetId": "table_chart",
     "gridData": {
       "w": 1,
-      "h": 1
+      "h": 2
     },
     "disabled": true
   },
@@ -1663,7 +1714,7 @@
     "widgetId": "flashing_table",
     "gridData": {
       "w": 20,
-      "h": 4
+      "h": 8
     },
     "disabled": true
   },
@@ -1673,6 +1724,8 @@
     "description": "Balance sheet, Income Statement, Cashflow Statement",
     "category": "equity",
     "widgetId": "financial_statements",
+    "category_1": "Equity",
+    "category_2": "Fundamental Analysis",
     "sdkFunc": {
       "balance_sheet": "useEquityFundamentalBalance",
       "income_statement": "useEquityFundamentalIncome",
@@ -1680,7 +1733,7 @@
     },
     "gridData": {
       "w": 40,
-      "h": 8
+      "h": 16
     },
     "source": [
       "intrinio"
@@ -1692,9 +1745,11 @@
     "description": "Compare multiple tickers",
     "category": "equity",
     "widgetId": "grouped_comparison",
+    "category_1": "Equity",
+    "category_2": "Comparison Analysis",
     "gridData": {
       "w": 26,
-      "h": 6
+      "h": 12
     },
     "source": [
       "fmp"
