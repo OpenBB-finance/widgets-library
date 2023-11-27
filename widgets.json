@@ -5,6 +5,7 @@
     "description": "Create inner tabs inside a tab",
     "category": "ui",
     "widgetId": "navigation_bar",
+    "category_root": "Others",
     "category_1": "Utils",
     "gridData": {
       "w": 40,
@@ -20,6 +21,7 @@
     "category": "equity",
     "widgetType": "individual",
     "widgetId": "market_overview",
+    "category_root": "Asset Classes",
     "category_1": "Index",
     "gridData": {
       "w": 40,
@@ -37,6 +39,7 @@
     "category": "equity",
     "widgetType": "individual",
     "widgetId": "equity_select",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "gridData": {
       "w": 20,
@@ -54,6 +57,7 @@
     "widgetType": "individual",
     "endpoint": "globalNews",
     "widgetId": "global_news",
+    "category_root": "Asset Classes",
     "category_1": "News",
     "gridData": {
       "w": 20,
@@ -70,6 +74,7 @@
     "category": "equity",
     "widgetType": "individual",
     "widgetId": "charting",
+    "category_root": "Others",
     "category_1": "Technical Analysis",
     "gridData": {
       "w": 40,
@@ -86,6 +91,7 @@
     "name": "Watchlist",
     "description": "Show watchlist for one or more tickers",
     "category": "equity",
+    "category_root": "Others",
     "category_1": "Utils",
     "widgetType": "individual",
     "widgetId": "watchlist",
@@ -102,6 +108,7 @@
     "widgetType": "individual",
     "endpoint": "companyNews",
     "widgetId": "company_news",
+    "category_root": "Asset Classes",
     "category_1": "News",
     "gridData": {
       "w": 20,
@@ -119,6 +126,7 @@
     "widgetType": "individual",
     "endpoint": "companyProfile",
     "widgetId": "company_profile",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "gridData": {
       "w": 20,
@@ -136,6 +144,7 @@
     "widgetType": "individual",
     "endpoint": "pricePerformance",
     "widgetId": "price_performance",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Price",
     "gridData": {
@@ -154,6 +163,7 @@
     "widgetType": "individual",
     "endpoint": "shareStatistics",
     "widgetId": "share_statistics",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Ownership",
     "gridData": {
@@ -172,6 +182,7 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalMetrics",
     "widgetId": "financial_ratios",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "params": {
@@ -205,6 +216,7 @@
     "widgetType": "individual",
     "endpoint": "peers",
     "widgetId": "peers_list",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Comparison Analysis",
     "gridData": {
@@ -221,6 +233,7 @@
     "widgetType": "individual",
     "endpoint": "companyOutlook",
     "widgetId": "key_metrics",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "gridData": {
@@ -235,6 +248,7 @@
     "searchCategory": "general-information",
     "name": "Management Team",
     "description": "Management Team for a certain ticker",
+    "category_root": "Asset Classes",
     "category": "equity",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalManagement",
@@ -282,6 +296,7 @@
     "defaultViz": "chart",
     "sdkFunc": "revenuePerGeog",
     "widgetId": "revenue_per_geography",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "gridData": {
@@ -301,6 +316,7 @@
     "defaultViz": "chart",
     "sdkFunc": "revenuePerBusLine",
     "widgetId": "revenue_per_bus_line",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "gridData": {
@@ -373,6 +389,7 @@
       }
     },
     "widgetId": "valuation_multiples",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "gridData": {
@@ -599,6 +616,7 @@
       }
     },
     "widgetId": "balance_sheet",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "gridData": {
@@ -761,6 +779,7 @@
       }
     },
     "widgetId": "income_statement",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "gridData": {
@@ -976,6 +995,7 @@
       }
     },
     "widgetId": "sec_filings",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "gridData": {
@@ -1000,6 +1020,7 @@
       }
     },
     "widgetId": "price_target",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Analyst Estimates",
     "gridData": {
@@ -1018,6 +1039,7 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityEstimatesPriceTarget",
     "widgetId": "analyst_price_target",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Analyst Estimates",
     "data": {
@@ -1164,6 +1186,7 @@
       }
     },
     "widgetId": "analyst_estimates",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Analyst Estimates",
     "gridData": {
@@ -1182,6 +1205,7 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityEstimatesPriceTarget",
     "widgetId": "analyst_upgrades_downgrades",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Analyst Estimates",
     "params": {
@@ -1237,6 +1261,7 @@
     "widgetType": "individual",
     "endpoint": "companyEarningsHistorical",
     "widgetId": "company_events",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "gridData": {
@@ -1255,6 +1280,7 @@
     "widgetType": "individual",
     "endpoint": "earningsTranscript",
     "widgetId": "earnings_transcripts",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "gridData": {
@@ -1273,6 +1299,7 @@
     "widgetType": "individual",
     "endpoint": "splits",
     "widgetId": "stock_splits",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "defaultViz": "chart",
@@ -1292,6 +1319,7 @@
     "widgetType": "none",
     "endpoint": "mock",
     "widgetId": "economic_calendar",
+    "category_root": "Asset Classes",
     "category_1": "Economy",
     "defaultViz": "table",
     "gridData": {
@@ -1310,6 +1338,7 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalDividends",
     "widgetId": "stock_dividends",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "data": {
@@ -1370,6 +1399,7 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityOwnershipInsiderTrading",
     "widgetId": "insider_trading",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Ownership",
     "data": {
@@ -1450,6 +1480,7 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityOwnershipMajorHolders",
     "widgetId": "stock_ownership",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Ownership",
     "params": {
@@ -1521,6 +1552,7 @@
     "widgetType": "individual",
     "sdkFunc": "useEquityOwnershipInstitutional",
     "widgetId": "institutional_ownership",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Ownership",
     "params": {
@@ -1590,6 +1622,7 @@
     "searchCategory": "miscellaneous",
     "name": "Text Widget",
     "description": "Create a text widget",
+    "category_root": "Others",
     "category": "utilities",
     "category_1": "Utils",
     "widgetId": "rich_note"
@@ -1599,6 +1632,7 @@
     "name": "Iframe",
     "description": "Embed an iframe",
     "category": "utilities",
+    "category_root": "Asset Classes",
     "category_1": "Utils",
     "widgetId": "iframe",
     "disabled": true
@@ -1617,6 +1651,7 @@
     "name": "RSS Feed",
     "description": "View and manage RSS feeds",
     "category": "utilities",
+    "category_root": "Others",
     "category_1": "Utils",
     "widgetId": "rss_viewer",
     "disabled": false
@@ -1626,6 +1661,7 @@
     "name": "Clock",
     "description": "Show a clock",
     "category": "utilities",
+    "category_root": "Others",
     "category_1": "Utils",
     "widgetId": "clock",
     "gridData": {
@@ -1724,6 +1760,7 @@
     "description": "Balance sheet, Income Statement, Cashflow Statement",
     "category": "equity",
     "widgetId": "financial_statements",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Fundamental Analysis",
     "sdkFunc": {
@@ -1745,6 +1782,7 @@
     "description": "Compare multiple tickers",
     "category": "equity",
     "widgetId": "grouped_comparison",
+    "category_root": "Asset Classes",
     "category_1": "Equity",
     "category_2": "Comparison Analysis",
     "gridData": {
