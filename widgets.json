@@ -6,7 +6,8 @@
     "category": "ui",
     "widgetId": "navigation_bar",
     "category_root": "Others",
-    "category_1": "Utils",
+    "category_1": "Others",
+    "category_2": "Utils",
     "gridData": {
       "w": 40,
       "h": 2,
@@ -75,7 +76,8 @@
     "widgetType": "individual",
     "widgetId": "charting",
     "category_root": "Others",
-    "category_1": "Technical Analysis",
+    "category_1": "Others",
+    "category_2": "Technical Analysis",
     "gridData": {
       "w": 40,
       "h": 16
@@ -91,8 +93,8 @@
     "name": "Watchlist",
     "description": "Show watchlist for one or more tickers",
     "category": "equity",
-    "category_root": "Others",
-    "category_1": "Utils",
+    "category_1": "Others",
+    "category_2": "Utils",
     "widgetType": "individual",
     "widgetId": "watchlist",
     "source": [
@@ -1624,7 +1626,8 @@
     "description": "Create a text widget",
     "category_root": "Others",
     "category": "utilities",
-    "category_1": "Utils",
+    "category_1": "Others",
+    "category_2": "Utils",
     "widgetId": "rich_note"
   },
   "iframe": {
@@ -1652,7 +1655,8 @@
     "description": "View and manage RSS feeds",
     "category": "utilities",
     "category_root": "Others",
-    "category_1": "Utils",
+    "category_1": "Others",
+    "category_2": "Utils",
     "widgetId": "rss_viewer",
     "disabled": false
   },
@@ -1662,7 +1666,8 @@
     "description": "Show a clock",
     "category": "utilities",
     "category_root": "Others",
-    "category_1": "Utils",
+    "category_1": "Others",
+    "category_2": "Utils",
     "widgetId": "clock",
     "gridData": {
       "w": 20,
