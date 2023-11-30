@@ -1,13 +1,10 @@
 {
   "navigation_bar": {
-    "searchCategory": "UI",
     "name": "Navigation Bar",
-    "description": "Create inner tabs inside a tab",
-    "category": "ui",
+    "description": "Create nested tabs inside the main tab for navigation",
     "widgetId": "navigation_bar",
-    "category_root": "Others",
-    "category_1": "Others",
-    "category_2": "Utils",
+    "category": "Others",
+    "sub_category": "Utils",
     "gridData": {
       "w": 40,
       "h": 2,
@@ -15,179 +12,128 @@
       "maxH": 2
     }
   },
-  "market_overview": {
-    "searchCategory": "general-information",
+  "market_indices": {
     "name": "Market Indices",
-    "description": "Show market overview (SP500, Nasdaq, Gold, ...)",
-    "category": "equity",
+    "description": "Overview of current market indices such as S&P 500, Gold, Nasdaq",
     "widgetType": "individual",
-    "widgetId": "market_overview",
-    "category_root": "Asset Classes",
-    "category_1": "Index",
+    "widgetId": "market_indices",
+    "category": "Index",
     "gridData": {
       "w": 40,
       "h": 4,
       "minW": 20
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
-  "equity_select": {
-    "searchCategory": "price",
+  "ticker_information": {
     "name": "Ticker Information",
-    "description": "Ticker Information",
-    "category": "equity",
+    "description": "Snapshot of a ticker",
     "widgetType": "individual",
-    "widgetId": "equity_select",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
+    "widgetId": "ticker_information",
+    "category": "Equity",
     "gridData": {
       "w": 20,
       "h": 4
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "global_news": {
-    "searchCategory": "general-information",
     "name": "Global News",
-    "description": "Show news from around the world",
-    "category": "equity",
+    "description": "News from around the world",
     "widgetType": "individual",
     "endpoint": "globalNews",
     "widgetId": "global_news",
-    "category_root": "Asset Classes",
-    "category_1": "News",
+    "category": "News",
     "gridData": {
       "w": 20,
       "h": 18
     },
-    "source": [
-      "benzinga"
-    ]
+    "source": ["benzinga"]
   },
   "charting": {
-    "searchCategory": "miscellaneous",
     "name": "Charting",
-    "description": "Show charting",
-    "category": "equity",
+    "description": "Interactive tradingview charting",
     "widgetType": "individual",
     "widgetId": "charting",
-    "category_root": "Others",
-    "category_1": "Others",
-    "category_2": "Technical Analysis",
+    "category": "Others",
+    "sub_category": "Technical Analysis",
     "gridData": {
       "w": 40,
       "h": 16
     },
-    "source": [
-      "fmp",
-      "intrinio",
-      "fred"
-    ]
+    "source": ["fmp", "intrinio", "fred"]
   },
   "watchlist": {
-    "searchCategory": "miscellaneous",
     "name": "Watchlist",
-    "description": "Show watchlist for one or more tickers",
-    "category": "equity",
-    "category_1": "Others",
-    "category_2": "Utils",
-    "category_root": "Others",
+    "description": "Overview of selected assets",
+    "category": "Others",
+    "sub_category": "Utils",
     "widgetType": "individual",
     "widgetId": "watchlist",
-    "source": [
-      "fmp",
-      "intrinio"
-    ]
+    "source": ["fmp", "intrinio"]
   },
   "company_news": {
-    "searchCategory": "general-information",
     "name": "Company News",
-    "description": "Show company news for a certain ticker",
-    "category": "equity",
+    "description": "Company specific news",
     "widgetType": "individual",
     "endpoint": "companyNews",
     "widgetId": "company_news",
-    "category_root": "Asset Classes",
-    "category_1": "News",
+    "category": "News",
     "gridData": {
       "w": 20,
       "h": 18
     },
-    "source": [
-      "benzinga"
-    ]
+    "source": ["benzinga"]
   },
   "company_profile": {
-    "searchCategory": "financials",
     "name": "Company profile",
-    "description": "Show company profile for a certain ticker",
-    "category": "equity",
+    "description": "Overview of company",
     "widgetType": "individual",
     "endpoint": "companyProfile",
     "widgetId": "company_profile",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
+    "category": "Equity",
     "gridData": {
       "w": 20,
       "h": 16
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "price_performance": {
-    "searchCategory": "price",
     "name": "Price performance",
-    "description": "Show price performance for a certain ticker",
-    "category": "equity",
+    "description": "Interactive chart for asset price performance",
     "widgetType": "individual",
     "endpoint": "pricePerformance",
     "widgetId": "price_performance",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Price",
+    "category": "Equity",
+    "sub_category": "Price",
     "gridData": {
       "w": 20,
       "h": 16
     },
-    "source": [
-      "intrinio"
-    ]
+    "source": ["intrinio"]
   },
   "share_statistics": {
-    "searchCategory": "general-information",
     "name": "Share Statistics",
-    "description": "Show share statistics for a certain ticker",
-    "category": "equity",
+    "description": "Company shares for trading",
     "widgetType": "individual",
     "endpoint": "shareStatistics",
     "widgetId": "share_statistics",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Ownership",
+    "category": "Equity",
+    "sub_category": "Ownership",
     "gridData": {
       "w": 10,
       "h": 6
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "financial_ratios": {
-    "searchCategory": "financials",
     "name": "Financial Ratios",
-    "description": "Show financial ratios for a certain ticker",
-    "category": "equity",
+    "description": "Company financial ratios such as P/B, ROE, etc.",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalMetrics",
     "widgetId": "financial_ratios",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "params": {
       "with_ttm": true
     },
@@ -195,11 +141,7 @@
       "table": {
         "enableCharts": true,
         "transpose": true,
-        "period": [
-          "annual",
-          "quarterly",
-          "TTM"
-        ],
+        "period": ["annual", "quarterly", "TTM"],
         "showAll": true
       }
     },
@@ -207,21 +149,16 @@
       "w": 40,
       "h": 16
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "peers_list": {
-    "searchCategory": "miscellaneous",
     "name": "Stock Peers",
-    "description": "Stock peers for selected ticker",
-    "category": "equity",
+    "description": "Similar companies",
     "widgetType": "individual",
     "endpoint": "peers",
     "widgetId": "peers_list",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Comparison Analysis",
+    "category": "Equity",
+    "sub_category": "Comparison Analysis",
     "gridData": {
       "w": 20,
       "h": 10
@@ -229,30 +166,22 @@
     "disabled": true
   },
   "key_metrics": {
-    "searchCategory": "general-information",
     "name": "Key Metrics",
-    "description": "Key Metrics for a certain ticker",
-    "category": "equity",
+    "description": "Key financial metrics, such as revenue, P/E, etc.",
     "widgetType": "individual",
     "endpoint": "companyOutlook",
     "widgetId": "key_metrics",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "gridData": {
       "w": 20,
       "h": 8
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "management_team": {
-    "searchCategory": "general-information",
     "name": "Management Team",
-    "description": "Management Team for a certain ticker",
-    "category_root": "Asset Classes",
-    "category": "equity",
+    "description": "Company management team",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalManagement",
     "data": {
@@ -281,60 +210,46 @@
       }
     },
     "widgetId": "management_team",
-    "category_1": "Equity",
+    "category": "Equity",
     "gridData": {
       "w": 20,
       "h": 14
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "revenue_per_geography": {
-    "searchCategory": "general-information",
     "name": "Revenue Per Geography",
-    "description": "Revenue Per Geography Quarterly and Annual",
-    "category": "equity",
+    "description": "Geographical breakdown of company revenue",
     "widgetType": "individual",
     "defaultViz": "chart",
     "sdkFunc": "revenuePerGeog",
     "widgetId": "revenue_per_geography",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "gridData": {
       "w": 20,
       "h": 14
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "revenue_per_bus_line": {
-    "searchCategory": "general-information",
     "name": "Revenue Per Business Line",
-    "description": "Revenue Per Business Line Quarterly and Annual",
-    "category": "equity",
+    "description": "Revenue breakdown by product category",
     "widgetType": "individual",
     "defaultViz": "chart",
     "sdkFunc": "revenuePerBusLine",
     "widgetId": "revenue_per_bus_line",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "gridData": {
       "w": 20,
       "h": 14
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "valuation_multiples": {
-    "searchCategory": "financials",
     "name": "Valuation Multiples",
-    "description": "Valuation Multiples Annually and Quarterly",
-    "category": "equity",
+    "description": "Valuation Multiples such as P/E ratio, P/B ratio, etc",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalMetrics",
     "params": {
@@ -342,11 +257,7 @@
     },
     "data": {
       "table": {
-        "period": [
-          "annual",
-          "quarterly",
-          "TTM"
-        ],
+        "period": ["annual", "quarterly", "TTM"],
         "enableCharts": true,
         "transpose": true,
         "columnsDefs": [
@@ -392,22 +303,17 @@
       }
     },
     "widgetId": "valuation_multiples",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "gridData": {
       "w": 40,
       "h": 12
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "balance_sheet": {
-    "searchCategory": "financials",
     "name": "Balance Sheet",
-    "description": "Balance Sheet for a certain ticker Quarterly and Annual",
-    "category": "equity",
+    "description": "Company Balance Sheet",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalBalance",
     "disabled": true,
@@ -415,10 +321,7 @@
       "table": {
         "enableCharts": true,
         "transpose": true,
-        "period": [
-          "annual",
-          "quarterly"
-        ],
+        "period": ["annual", "quarterly"],
         "columnsDefs": [
           {
             "headerName": "Date",
@@ -619,22 +522,17 @@
       }
     },
     "widgetId": "balance_sheet",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "gridData": {
       "w": 40,
       "h": 16
     },
-    "source": [
-      "intrinio"
-    ]
+    "source": ["intrinio"]
   },
   "income_statement": {
-    "searchCategory": "financials",
     "name": "Income Statement",
-    "description": "Income Statement for a certain ticker Quarterly and Annual",
-    "category": "equity",
+    "description": "Company Income Statement",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalIncome",
     "disabled": true,
@@ -642,10 +540,7 @@
       "table": {
         "enableCharts": true,
         "transpose": true,
-        "period": [
-          "annual",
-          "quarterly"
-        ],
+        "period": ["annual", "quarterly"],
         "columnsDefs": [
           {
             "headerName": "Date",
@@ -675,7 +570,8 @@
           },
           {
             "headerName": "Gross Profit Ratio",
-            "field": "gross_profit_ratio"
+            "field": "gross_profit_ratio",
+            "formatterFn": "percent"
           },
           {
             "headerName": "Research And Development Expenses",
@@ -782,32 +678,24 @@
       }
     },
     "widgetId": "income_statement",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "gridData": {
       "w": 40,
       "h": 16
     },
-    "source": [
-      "intrinio"
-    ]
+    "source": ["intrinio"]
   },
   "cash_flow_statement": {
-    "searchCategory": "financials",
     "name": "Cash Flow Statement",
-    "description": "Cash Flow Statement for a certain ticker Quarterly and Annual",
-    "category": "equity",
+    "description": "Company Cash Flow Statement",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalCash",
     "disabled": true,
     "data": {
       "table": {
         "enableCharts": true,
-        "period": [
-          "annual",
-          "quarterly"
-        ],
+        "period": ["annual", "quarterly"],
         "transpose": true,
         "columnsDefs": [
           {
@@ -952,21 +840,17 @@
       }
     },
     "widgetId": "cash_flow_statement",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "gridData": {
       "w": 40,
       "h": 16
     },
-    "source": [
-      "intrinio"
-    ]
+    "source": ["intrinio"]
   },
-  "sec_filings": {
-    "searchCategory": "financials",
+  "company_filings": {
     "name": "Company Filings",
-    "description": "Recent Company Filings for a certain ticker",
-    "category": "equity",
+    "description": "Recent Company SEC Filings",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalFilings",
     "data": {
@@ -975,7 +859,7 @@
         "columnsDefs": [
           {
             "headerName": "Date",
-            "field": "date",
+            "field": "filing_date",
             "cellDataType": "date",
             "chartDataType": "category"
           },
@@ -987,33 +871,28 @@
           },
           {
             "headerName": "Type",
-            "field": "type"
+            "field": "report_type"
           },
           {
             "headerName": "Source",
-            "field": "final_link",
+            "field": "filing_url",
             "chartDataType": "excluded"
           }
         ]
       }
     },
-    "widgetId": "sec_filings",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "widgetId": "company_filings",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "gridData": {
       "w": 12,
       "h": 14
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "price_target": {
-    "searchCategory": "analyst-estimates",
     "name": "Price Target",
-    "description": "Price Targets for a certain ticker",
-    "category": "equity",
+    "description": "Chart of analyst price targets with closing price",
     "widgetType": "individual",
     "defaultViz": "chart",
     "sdkFunc": "useEquityEstimatesPriceTarget",
@@ -1023,28 +902,22 @@
       }
     },
     "widgetId": "price_target",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Analyst Estimates",
+    "category": "Equity",
+    "sub_category": "Analyst Estimates",
     "gridData": {
       "w": 20,
       "h": 8
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "analyst_price_target": {
-    "searchCategory": "analyst-estimates",
     "name": "Price Target By Analyst",
-    "description": "Analyst Price Targets for a certain ticker",
-    "category": "equity",
+    "description": "Analyst Price Targets",
     "widgetType": "individual",
     "sdkFunc": "useEquityEstimatesPriceTarget",
     "widgetId": "analyst_price_target",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Analyst Estimates",
+    "category": "Equity",
+    "sub_category": "Analyst Estimates",
     "data": {
       "table": {
         "columnsDefs": [
@@ -1089,23 +962,16 @@
       "w": 40,
       "h": 16
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "analyst_estimates": {
-    "searchCategory": "analyst-estimates",
     "name": "Analyst Estimates",
-    "description": "Analyst Estimates for a certain ticker Quarterly and Annual",
-    "category": "equity",
+    "description": "Analyst Estimates",
     "widgetType": "individual",
     "sdkFunc": "useEquityEstimatesHistorical",
     "data": {
       "table": {
-        "period": [
-          "annual",
-          "quarterly"
-        ],
+        "period": ["annual", "quarterly"],
         "columnsDefs": [
           {
             "headerName": "Date",
@@ -1189,28 +1055,22 @@
       }
     },
     "widgetId": "analyst_estimates",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Analyst Estimates",
+    "category": "Equity",
+    "sub_category": "Analyst Estimates",
     "gridData": {
       "w": 20,
       "h": 8
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
-  "analyst_upgrades_downgrades": {
-    "searchCategory": "analyst-estimates",
+  "analyst_consensus": {
     "name": "Analyst Consensus",
-    "description": "Analyst Consensus for a certain ticker",
-    "category": "equity",
+    "description": "Consensus analyst estimates",
     "widgetType": "individual",
     "sdkFunc": "useEquityEstimatesPriceTarget",
-    "widgetId": "analyst_upgrades_downgrades",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Analyst Estimates",
+    "widgetId": "analyst_consensus",
+    "category": "Equity",
+    "sub_category": "Analyst Estimates",
     "params": {
       "with_grade": true
     },
@@ -1252,98 +1112,73 @@
       "w": 40,
       "h": 12
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
-  "company_events": {
-    "searchCategory": "company-calendar",
+  "earning_history": {
     "name": "Earnings History",
-    "description": "Earnings History for a certain ticker",
-    "category": "equity",
+    "description": "Historical earnings data",
     "widgetType": "individual",
     "endpoint": "companyEarningsHistorical",
-    "widgetId": "company_events",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "widgetId": "earning_history",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "gridData": {
       "w": 19,
       "h": 12
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "earnings_transcripts": {
-    "searchCategory": "company-calendar",
     "name": "Earnings Transcripts",
-    "description": "Full transcript of earnings call",
-    "category": "equity",
+    "description": "Full transcripts of earnings call",
     "widgetType": "individual",
     "endpoint": "earningsTranscript",
     "widgetId": "earnings_transcripts",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "gridData": {
       "w": 40,
       "h": 16
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "stock_splits": {
-    "searchCategory": "company-calendar",
     "name": "Stock Splits",
-    "description": "History of stock splits",
-    "category": "equity",
+    "description": "Historical stock splits",
     "widgetType": "individual",
     "endpoint": "splits",
     "widgetId": "stock_splits",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "defaultViz": "chart",
     "gridData": {
       "w": 40,
       "h": 14
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "economic_calendar": {
-    "searchCategory": "economy",
     "name": "Economic Calendar",
-    "description": "Economic events from the global economy",
-    "category": "economy",
+    "description": "Economic events from around the world",
     "widgetType": "none",
     "endpoint": "mock",
     "widgetId": "economic_calendar",
-    "category_root": "Asset Classes",
-    "category_1": "Economy",
+    "category": "Economy",
     "defaultViz": "table",
     "gridData": {
       "w": 20,
       "h": 8
     },
-    "source": [
-      "tradingeconomics"
-    ]
+    "source": ["tradingeconomics"]
   },
-  "stock_dividends": {
-    "searchCategory": "company-calendar",
+  "dividend_payment": {
     "name": "Dividend Payment",
-    "description": "History of stock dividends",
-    "category": "equity",
+    "description": "Historical stock dividends",
     "widgetType": "individual",
     "sdkFunc": "useEquityFundamentalDividends",
-    "widgetId": "stock_dividends",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "widgetId": "dividend_payment",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "data": {
       "table": {
         "enableCharts": true,
@@ -1390,21 +1225,16 @@
       "w": 40,
       "h": 12
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "insider_trading": {
-    "searchCategory": "ownership",
     "name": "Insider Trading",
     "description": "Recent Insider Trading",
-    "category": "equity",
     "widgetType": "individual",
     "sdkFunc": "useEquityOwnershipInsiderTrading",
     "widgetId": "insider_trading",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Ownership",
+    "category": "Equity",
+    "sub_category": "Ownership",
     "data": {
       "table": {
         "enableCharts": true,
@@ -1416,8 +1246,8 @@
             "chartDataType": "category"
           },
           {
-            "headerName": "Reporting CIK",
-            "field": "reporting_cik",
+            "headerName": "Owner CIK",
+            "field": "owner_cik",
             "cellDataType": "text",
             "chartDataType": "excluded"
           },
@@ -1437,8 +1267,8 @@
             "chartDataType": "excluded"
           },
           {
-            "headerName": "Reporting Name",
-            "field": "reporting_name",
+            "headerName": "Owner Name",
+            "field": "owner_name",
             "chartDataType": "category"
           },
           {
@@ -1457,11 +1287,11 @@
           },
           {
             "headerName": "Price",
-            "field": "price"
+            "field": "transaction_price"
           },
           {
-            "headerName": "Security Name",
-            "field": "security_name",
+            "headerName": "Security Type",
+            "field": "security_type",
             "chartDataType": "excluded"
           }
         ]
@@ -1471,21 +1301,16 @@
       "w": 40,
       "h": 12
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "stock_ownership": {
-    "searchCategory": "ownership",
     "name": "Stock Ownership",
-    "description": "Instutional Ownership by percentage for a ticker",
-    "category": "equity",
+    "description": "Percentage of shares owned by major holders",
     "widgetType": "individual",
     "sdkFunc": "useEquityOwnershipMajorHolders",
     "widgetId": "stock_ownership",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Ownership",
+    "category": "Equity",
+    "sub_category": "Ownership",
     "params": {
       "date": "string",
       "include_current_quarter": true
@@ -1543,21 +1368,16 @@
       "w": 40,
       "h": 12
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "institutional_ownership": {
-    "searchCategory": "ownership",
     "name": "Institutional Ownership",
-    "description": "Instutional Ownership quarterly",
-    "category": "equity",
+    "description": "Instutional Ownership",
     "widgetType": "individual",
     "sdkFunc": "useEquityOwnershipInstitutional",
     "widgetId": "institutional_ownership",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Ownership",
+    "category": "Equity",
+    "sub_category": "Ownership",
     "params": {
       "include_current_quarter": true
     },
@@ -1617,130 +1437,69 @@
       "w": 40,
       "h": 12
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   },
   "rich_note": {
-    "searchCategory": "miscellaneous",
     "name": "Text Widget",
     "description": "Create a text widget",
-    "category_root": "Others",
-    "category": "utilities",
-    "category_1": "Others",
-    "category_2": "Utils",
+    "category": "Others",
+    "sub_category": "Utils",
     "widgetId": "rich_note"
   },
   "iframe": {
-    "searchCategory": "miscellaneous",
     "name": "Iframe",
     "description": "Embed an iframe",
-    "category": "utilities",
-    "category_root": "Asset Classes",
-    "category_1": "Utils",
+    "category": "Others",
+    "sub_category": "Utils",
     "widgetId": "iframe",
     "disabled": true
   },
   "xml_viewer": {
-    "searchCategory": "miscellaneous",
     "name": "XML Viewer",
     "description": "View XML (e.g., to view rss feeds or sec filings)",
-    "category": "utilities",
-    "category_1": "Utils",
+    "category": "Others",
+    "sub_category": "Utils",
     "widgetId": "xml_viewer",
     "disabled": true
   },
   "rss_viewer": {
-    "searchCategory": "miscellaneous",
     "name": "RSS Feed",
     "description": "View and manage RSS feeds",
-    "category": "utilities",
-    "category_root": "Others",
-    "category_1": "Others",
-    "category_2": "Utils",
+    "category": "Others",
+    "sub_category": "Utils",
     "widgetId": "rss_viewer",
     "disabled": false
   },
   "clock": {
-    "searchCategory": "miscellaneous",
     "name": "Clock",
-    "description": "Show a clock",
-    "category": "utilities",
-    "category_root": "Others",
-    "category_1": "Others",
-    "category_2": "Utils",
+    "description": "Display the time from various timezones",
+    "category": "Others",
+    "sub_category": "Utils",
     "widgetId": "clock",
     "gridData": {
       "w": 20,
       "h": 4
-    },
-    "schema": {
-      "properties": {
-        "timezone": {
-          "type": "string",
-          "title": "Timezone",
-          "description": "Enter the timezone you want to display",
-          "default": "America/New_York",
-          "choices": [
-            "America/New_York",
-            "America/Chicago",
-            "America/Denver",
-            "America/Los_Angeles",
-            "America/Anchorage",
-            "Pacific/Honolulu",
-            "Europe/London",
-            "Europe/Paris",
-            "Europe/Berlin",
-            "Europe/Rome",
-            "Europe/Madrid",
-            "Europe/Amsterdam",
-            "Europe/Stockholm",
-            "Europe/Athens",
-            "Europe/Bucharest",
-            "Europe/Istanbul",
-            "Europe/Moscow",
-            "Asia/Jerusalem",
-            "Asia/Dubai",
-            "Asia/Karachi",
-            "Asia/Dhaka",
-            "Asia/Calcutta",
-            "Asia/Jakarta",
-            "Asia/Shanghai",
-            "Asia/Tokyo",
-            "Asia/Seoul",
-            "Australia/Sydney",
-            "Australia/Adelaide",
-            "Australia/Brisbane",
-            "Australia/Perth",
-            "Australia/Melbourne",
-            "Pacific/Auckland"
-          ]
-        }
-      }
     }
   },
   "external_table": {
-    "searchCategory": "miscellaneous",
     "name": "External Table",
     "description": "Show a table loaded from external source",
-    "category": "utilities",
+    "category": "Others",
     "widgetId": "external_table",
     "external": true,
     "disabled": true
   },
   "pyscript": {
-    "searchCategory": "miscellaneous",
     "name": "PyScript",
     "description": "Run a python interpreter",
-    "category": "utilities",
+    "category": "Others",
     "widgetId": "pyscript",
     "disabled": true
   },
   "table_chart": {
-    "searchCategory": "miscellaneous",
     "name": "Table Chart",
     "description": "Show a chart from a table",
-    "category": "utilities",
+    "category": "Others",
     "widgetId": "table_chart",
     "gridData": {
       "w": 1,
@@ -1749,10 +1508,9 @@
     "disabled": true
   },
   "flashing_table": {
-    "searchCategory": "miscellaneous",
     "name": "Flashing Table",
     "description": "Show a table that flashes",
-    "category": "utilities",
+    "category": "Others",
     "widgetId": "flashing_table",
     "gridData": {
       "w": 20,
@@ -1761,14 +1519,11 @@
     "disabled": true
   },
   "financial_statements": {
-    "searchCategory": "financials",
     "name": "Financial Statements",
-    "description": "Balance sheet, Income Statement, Cashflow Statement",
-    "category": "equity",
+    "description": "All three financial statements in a single widget",
     "widgetId": "financial_statements",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Fundamental Analysis",
+    "category": "Equity",
+    "sub_category": "Fundamental Analysis",
     "sdkFunc": {
       "balance_sheet": "useEquityFundamentalBalance",
       "income_statement": "useEquityFundamentalIncome",
@@ -1778,25 +1533,18 @@
       "w": 40,
       "h": 16
     },
-    "source": [
-      "intrinio"
-    ]
+    "source": ["intrinio"]
   },
   "grouped_comparison": {
-    "searchCategory": "comparison-analysis",
     "name": "Comparison Analysis",
-    "description": "Compare multiple tickers",
-    "category": "equity",
+    "description": "Compare financials of multiple tickers",
     "widgetId": "grouped_comparison",
-    "category_root": "Asset Classes",
-    "category_1": "Equity",
-    "category_2": "Comparison Analysis",
+    "category": "Equity",
+    "sub_category": "Comparison Analysis",
     "gridData": {
       "w": 26,
       "h": 12
     },
-    "source": [
-      "fmp"
-    ]
+    "source": ["fmp"]
   }
 }
